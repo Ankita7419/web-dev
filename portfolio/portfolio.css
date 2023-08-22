@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar{
+    background-color: rgb(124, 84, 126);
+    width: 13vw;
+    font-family: 'PT Sans', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding:50px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 20px 0;
+    font-size: x-large;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(246, 235, 235);
+}
+.main{
+    /* background-color: rgb(124, 98, 177); */
+    width: 87vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: rgb(148, 148, 217); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    font-family: 'PT Sans', sans-serif;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* font-family: 'PT Sans', sans-serif; */
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.buttons{
+    margin-top: 35px;
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 80px;
+    color: white;
+    background-color: rgb(56, 126, 223);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: aliceblue;
+    color: rgb(56, 156, 223);
+}
+.devPic img{
+    height: 58vh;  
+}
