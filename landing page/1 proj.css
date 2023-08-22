@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.min-h-screen{
+    min-height: 100vh;
+}
+.bg-red{
+    /* background-color: red; */
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    /* max-width: 90vw; */
+    background-image: url(https://images.unsplash.com/photo-1635875797356-7d29aa0dfa32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    height: 65px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.border{
+    border: 2px solid black;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+}
+.my-1{
+    margin-top: 2px; 
+    margin-bottom: 13px;
+}
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.text-white{
+    color: #ffffff;
+    margin-left: 20px;
+}
+.flex-col{
+    flex-direction: column;
+}
+.section1{
+    width: 50%;
+    height: 100vh;
+}
+.section2{
+    width: 50%;
+    height: 100vh;
+}
+.topleft{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+}
+.topright{
+    padding: 40px 40px;
+    margin-top: 40px;
+    /* border: 1px solid white; */
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    color: rgb(255, 255, 255);
+}
+.topright ul li{
+    color: #ffffff;  
+    padding: 20px 8px;
+    padding-right: 100px;
+    /* padding-left: 20px; */
+}
+.btn{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    max-width: 110px;
+}
+.btn:hover{
+    background-color: rgb(220, 189, 189);
+    font-size: large;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.list-styles{
+    list-style: none;
+}
+.list-hov:hover{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: rgba(255, 0, 0, 0.151);
+}
+.list-hov{
+    text-align: right;
+}
